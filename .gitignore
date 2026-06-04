@@ -18,3 +18,4 @@ docs/
 *.old
 *.q5-default-backup
 content/**/.quarto/
+public/
