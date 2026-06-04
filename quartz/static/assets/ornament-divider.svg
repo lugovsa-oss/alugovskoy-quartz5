@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 36" preserveAspectRatio="none">
+<path d="M0 18h390" stroke="#a77b42" stroke-width="1.5" opacity=".75"/>
+<path d="M510 18h390" stroke="#a77b42" stroke-width="1.5" opacity=".75"/>
+<path d="M450 3l10 15-10 15-10-15z" fill="none" stroke="#a77b42" stroke-width="2"/>
+<circle cx="450" cy="18" r="3" fill="#a77b42"/>
+</svg>

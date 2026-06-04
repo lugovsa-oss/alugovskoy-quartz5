@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-label="Compass rose">
+<style>.b{fill:#a77b42}.n{fill:#10243a}.l{fill:none;stroke:#10243a;stroke-width:2;opacity:.55}</style>
+<circle cx="150" cy="150" r="92" class="l"/><circle cx="150" cy="150" r="58" class="l"/>
+<path class="b" d="M150 18l18 104 104 28-104 28-18 104-18-104-104-28 104-28z"/>
+<path class="n" d="M150 55l10 80 80 15-80 15-10 80-10-80-80-15 80-15z" opacity=".85"/>
+<circle cx="150" cy="150" r="9" fill="#f6f1e5" stroke="#10243a" stroke-width="2"/>
+<text x="150" y="32" text-anchor="middle" font-family="Georgia,serif" font-size="18" fill="#10243a">N</text>
+</svg>
