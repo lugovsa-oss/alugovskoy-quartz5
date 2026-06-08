@@ -323,7 +323,7 @@ $$\underbrace{\mathrm{CH_3COO^-}}_{\text{base}_1} + \underbrace{\mathrm{H_2O}}_{
 
 קטיון האמוניום כתורם פרוטון מגיב עם המים כבסיס:
 
-$$\underbrace{\mathrm{NH_4^+}}_{\text{חומצה}_1} + \underbrace{\mathrm{H_2O}}_{\text{בסיס}_2} \rightleftharpoons \underbrace{\mathrm{NH_3}}_{\text{בסיס}_1} + \underbrace{\mathrm{H_3O^+}}_{\text{חומצה}_2}$$
+$$\underbrace{\mathrm{NH_4^+}}_{\text{acid}_1} + \underbrace{\mathrm{H_2O}}_{\text{base}_2} \rightleftharpoons \underbrace{\mathrm{NH_3}}_{\text{base}_1} + \underbrace{\mathrm{H_3O^+}}_{\text{acid}_2}$$
 
 **כתיבת משוואות הידרוליזה של מלחים.** הידרוליזה של מלחים שנוצרו מחומצות חלשות רב-פרוטיות ובסיסים חזקים מתרחשת בשלבים (בהתאמה לתהליך ההפוך — פירוק בשלבים), ונוצרים אניוני מלחים חומציים. נבחן את הידרוליזת $\mathrm{Na_2CO_3}$ (מלח של בסיס חזק וחומצה חלשה; יון $\mathrm{CO_3^{2-}}$ יקשור יוני מימן של המים):
 

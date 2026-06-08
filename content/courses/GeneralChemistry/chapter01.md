@@ -101,9 +101,9 @@ $$M(\mathrm{H_2O}) = \frac{2.99 \times 10^{-26}\ \text{kg}}{1/(6.02 \times 10^{2
 
 מול אחד של אטומים, מולקולות או יונים מכיל מספר חלקיקים השווה לקבוע אבוגדרו:
 
-$$1\ \text{מול אטומי}\ {}^{12}\mathrm{C} = 6.02 \times 10^{23}\ \text{אטומי}\ {}^{12}\mathrm{C}$$
-$$1\ \text{מול מולקולות}\ \mathrm{H_2O} = 6.02 \times 10^{23}\ \text{מולקולות}\ \mathrm{H_2O}$$
-$$1\ \text{מול יוני}\ \mathrm{SO_4^{2-}} = 6.02 \times 10^{23}\ \text{יוני}\ \mathrm{SO_4^{2-}}$$
+$$1\ \text{moles of atoms }\ {}^{12}\mathrm{C} = 6.02 \times 10^{23}\ \text{atoms}\ {}^{12}\mathrm{C}$$
+$$1\ \text{moles of molecules }\ \mathrm{H_2O} = 6.02 \times 10^{23}\ \text{molecules}\ \mathrm{H_2O}$$
+$$1\ \text{moles of ions }\ \mathrm{SO_4^{2-}} = 6.02 \times 10^{23}\ \text{ions}\ \mathrm{SO_4^{2-}}$$
 
 מסה וכמות חומר הם מושגים שונים. מסה נמדדת בקילוגרמים (גרמים), כמות חומר — במולים. בין מסת החומר ($m$, ג), כמות החומר ($n$, מול) והמסה המולרית ($M$, ג/מול) מתקיימים היחסים הפשוטים הבאים:
 
