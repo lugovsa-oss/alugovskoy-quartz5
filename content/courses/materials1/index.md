@@ -1,5 +1,5 @@
 ---
-title: מבוא
+title: מבוא לחומרים
 cssclasses:
   - he
 ---
