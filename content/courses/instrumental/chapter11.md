@@ -1,4 +1,9 @@
-# פרק 11. כרומטוגרפיה
+---
+title: פרק 11. כרומטוגרפיה
+cssclasses:
+  - he
+---
+
 
 ![[chromatography.webp]]
 
