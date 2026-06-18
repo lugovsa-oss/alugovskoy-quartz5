@@ -485,3 +485,22 @@ article:has(:lang(he)) {
   direction: ltr;
   unicode-bidi: isolate;
 }
+:root[saved-theme="light"] {
+  --dark: #2b2525;
+  --darkgray: #4a4141;
+  --gray: #6f6666;
+  --light: #fbfaf7;
+  --lightgray: #e8e2dc;
+}
+
+:root[saved-theme="light"] article,
+:root[saved-theme="light"] article p,
+:root[saved-theme="light"] article li {
+  color: var(--darkgray) !important;
+}
+
+:root[saved-theme="light"] article h1,
+:root[saved-theme="light"] article h2,
+:root[saved-theme="light"] article h3 {
+  color: var(--dark) !important;
+}
