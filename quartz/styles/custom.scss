@@ -1,33 +1,144 @@
+/* alugovskoy.net custom styles
+   Clean version: readable light theme + working dark theme.
+   Replace quartz/styles/custom.scss with this file.
+*/
+
+/* ---------- Color system ---------- */
+
 :root {
+  color-scheme: light;
+
+  /* Site palette */
   --al-bg: #f7f3ec;
   --al-paper: #fbfaf7;
-  --al-text: #1e1b18;
-  --al-muted: #6f6962;
-  --al-red: #a32020;
-  --al-red-dark: #7a1414;
-  --al-line: #ddd5ca;
+  --al-text: #241f1b;
+  --al-muted: #5f574f;
+  --al-red: #9a1f1f;
+  --al-red-dark: #6f1414;
+  --al-line: #d8cec1;
   --al-card: #fffdfa;
+
+  /* Quartz palette overrides */
+  --light: var(--al-paper);
+  --lightgray: #eee7dd;
+  --gray: var(--al-muted);
+  --darkgray: var(--al-text);
+  --dark: #171310;
+  --secondary: var(--al-red);
+  --tertiary: var(--al-red-dark);
+  --highlight: rgba(154, 31, 31, 0.12);
 }
 
-/* Base */
+/* Quartz manual dark theme */
+:root[saved-theme="dark"] {
+  color-scheme: dark;
 
+  --al-bg: #171412;
+  --al-paper: #211d1a;
+  --al-text: #eee8df;
+  --al-muted: #c9beb2;
+  --al-red: #f0a08e;
+  --al-red-dark: #ffc0b2;
+  --al-line: #4a4038;
+  --al-card: #2a2521;
+
+  --light: var(--al-paper);
+  --lightgray: #2f2925;
+  --gray: var(--al-muted);
+  --darkgray: var(--al-text);
+  --dark: #fff8ef;
+  --secondary: var(--al-red);
+  --tertiary: var(--al-red-dark);
+  --highlight: rgba(240, 160, 142, 0.18);
+}
+
+/* System dark mode, if Quartz does not set saved-theme */
+@media (prefers-color-scheme: dark) {
+  :root:not([saved-theme="light"]) {
+    color-scheme: dark;
+
+    --al-bg: #171412;
+    --al-paper: #211d1a;
+    --al-text: #eee8df;
+    --al-muted: #c9beb2;
+    --al-red: #f0a08e;
+    --al-red-dark: #ffc0b2;
+    --al-line: #4a4038;
+    --al-card: #2a2521;
+
+    --light: var(--al-paper);
+    --lightgray: #2f2925;
+    --gray: var(--al-muted);
+    --darkgray: var(--al-text);
+    --dark: #fff8ef;
+    --secondary: var(--al-red);
+    --tertiary: var(--al-red-dark);
+    --highlight: rgba(240, 160, 142, 0.18);
+  }
+}
+
+/* ---------- Base ---------- */
+
+html,
 body {
   background: var(--al-bg) !important;
-  color: var(--al-text);
+  color: var(--al-text) !important;
+}
+
+body {
   font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
 }
 
-a {
-  color: var(--al-red);
+#quartz-root,
+#quartz-body,
+.page,
+.center,
+article,
+article.popover-hint,
+.content,
+.page article {
+  color: var(--al-text) !important;
+}
+
+/* Make inherited Quartz typography readable. */
+article p,
+article li,
+article ul,
+article ol,
+article blockquote,
+article table,
+article td,
+article th,
+article figcaption,
+article .katex,
+article mjx-container {
+  color: var(--al-text) !important;
+}
+
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h6 {
+  color: var(--dark) !important;
+}
+
+a,
+article a,
+.page a {
+  color: var(--al-red) !important;
   text-underline-offset: 0.18em;
   text-decoration-thickness: 0.06em;
 }
 
-a:hover {
-  color: var(--al-red-dark);
+a:hover,
+article a:hover,
+.page a:hover {
+  color: var(--al-red-dark) !important;
 }
 
-/* Kill default Quartz side UI for front-site prototype */
+/* ---------- Kill default Quartz side UI for front-site prototype ---------- */
 
 .left,
 .right,
@@ -37,7 +148,7 @@ a:hover {
   display: none !important;
 }
 
-/* Main Quartz layout */
+/* ---------- Main Quartz layout ---------- */
 
 #quartz-root {
   max-width: 100% !important;
@@ -58,7 +169,7 @@ html body #quartz-root #quartz-body {
   min-height: 100vh;
   margin: 0 auto !important;
   padding: 3.5rem 5.5rem !important;
-  background: var(--al-paper);
+  background: var(--al-paper) !important;
   border-left: 1px solid var(--al-line);
   border-right: 1px solid var(--al-line);
 }
@@ -75,10 +186,9 @@ article.popover-hint > * {
   margin-right: auto;
 }
 
-/* Typography */
+/* ---------- Typography ---------- */
 
 article h1 {
-  color: var(--al-text);
   font-size: 3rem;
   line-height: 1.08;
   margin-top: 2rem;
@@ -87,7 +197,6 @@ article h1 {
 }
 
 article h2 {
-  color: var(--al-text);
   margin-top: 2.2rem;
 }
 
@@ -103,7 +212,7 @@ article img {
   border-radius: 4px;
 }
 
-/* Custom site header */
+/* ---------- Custom site header ---------- */
 
 .al-site-header {
   width: min(1180px, calc(100vw - 4rem));
@@ -126,7 +235,7 @@ article img {
   margin-top: 0.55rem;
   font-family: Georgia, serif;
   font-style: italic;
-  color: var(--al-muted);
+  color: var(--al-muted) !important;
   font-size: 1.08rem;
 }
 
@@ -146,20 +255,20 @@ article img {
 }
 
 .al-main-nav a {
-  color: var(--al-text);
+  color: var(--al-text) !important;
   text-decoration: none;
 }
 
 .al-main-nav a:hover {
-  color: var(--al-red);
+  color: var(--al-red) !important;
 }
 
 .al-lang {
   margin-left: 1rem;
-  color: var(--al-muted);
+  color: var(--al-muted) !important;
 }
 
-/* Hide Quartz metadata on front page */
+/* ---------- Hide Quartz metadata on front page ---------- */
 
 body[data-slug="index"] .page-title,
 body[data-slug="index"] .content-meta,
@@ -169,7 +278,7 @@ body[data-slug="index"] .popover-hint .callout {
   display: none !important;
 }
 
-/* Front page */
+/* ---------- Front page ---------- */
 
 body[data-slug="index"] article.popover-hint > * {
   max-width: none !important;
@@ -202,7 +311,7 @@ body[data-slug="index"] article.popover-hint > * {
 
 .al-front-card {
   border: 1px solid var(--al-line);
-  background: var(--al-card);
+  background: var(--al-card) !important;
   padding: 2.2rem 2.3rem;
   min-height: 255px;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
@@ -210,7 +319,11 @@ body[data-slug="index"] article.popover-hint > * {
 
 .al-front-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(30, 27, 24, 0.08);
+  box-shadow: 0 8px 24px rgba(30, 27, 24, 0.12);
+}
+
+:root[saved-theme="dark"] .al-front-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
 .al-front-card h2 {
@@ -229,13 +342,17 @@ body[data-slug="index"] article.popover-hint > * {
   font-weight: 600;
 }
 
-/* Footer */
+/* ---------- Footer ---------- */
 
 footer {
-  color: var(--al-muted);
+  color: var(--al-muted) !important;
   border-top: 1px solid var(--al-line);
   margin-top: 3rem;
   padding-top: 1rem;
+}
+
+footer * {
+  color: var(--al-muted) !important;
 }
 
 footer ul,
@@ -243,7 +360,7 @@ footer p:has(a[href*="quartz"]) {
   display: none !important;
 }
 
-/* RTL helpers */
+/* ---------- RTL helpers ---------- */
 
 [dir="rtl"],
 html[lang="he"] article,
@@ -257,7 +374,153 @@ article:has(:lang(he)) {
   text-align: left;
 }
 
-/* Mobile */
+.he {
+  direction: rtl;
+  text-align: right;
+}
+
+.he p,
+.he li,
+.he ul,
+.he ol,
+.he blockquote,
+.he h1,
+.he h2,
+.he h3,
+.he h4,
+.he h5,
+.he h6 {
+  direction: rtl;
+  text-align: right;
+}
+
+.he .katex,
+.he mjx-container,
+.he code,
+.he pre {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.he span[dir="ltr"],
+.he bdi[dir="ltr"] {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* ---------- Root language landing ---------- */
+
+.al-root-landing {
+  min-height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.al-root-center {
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.al-root-center h1 {
+  font-size: 4.8rem;
+  line-height: 1.02;
+  margin-bottom: 1.4rem;
+}
+
+.al-root-center p {
+  font-size: 1.3rem;
+}
+
+.al-root-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.al-lang-entry {
+  display: block;
+  padding: 2.5rem 2rem;
+  border: 1px solid var(--al-line);
+  background: var(--al-card) !important;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.al-lang-entry:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(30, 27, 24, 0.12);
+}
+
+:root[saved-theme="dark"] .al-lang-entry:hover {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.35);
+}
+
+.al-lang-title {
+  display: block;
+  font-size: 2rem;
+  color: var(--al-text) !important;
+  margin-bottom: 1rem;
+  font-family: Georgia, serif;
+}
+
+.al-lang-desc {
+  display: block;
+  color: var(--al-muted) !important;
+  line-height: 1.7;
+  font-size: 1.05rem;
+}
+
+.al-root-footer {
+  margin-top: 4rem;
+  color: var(--al-muted) !important;
+  font-style: italic;
+}
+
+/* ---------- Home watermarks ---------- */
+
+.home-page article {
+  position: relative;
+}
+
+.home-page article::before,
+.home-page article::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  opacity: 0.28;
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+
+.home-page article::before {
+  background-image: url("/images/left-watermark.png");
+  width: 340px;
+  height: 340px;
+  left: 28%;
+  top: 160px;
+}
+
+.home-page article::after {
+  background-image: url("/images/right-watermark.png");
+  width: 360px;
+  height: 360px;
+  right: 6%;
+  top: 190px;
+}
+
+.al-card-illustration {
+  width: 180px;
+  max-width: 70%;
+  opacity: 0.75;
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+/* ---------- Mobile ---------- */
 
 @media (max-width: 900px) {
   html body #quartz-root #quartz-body {
@@ -300,123 +563,18 @@ article:has(:lang(he)) {
     font-size: 2.4rem !important;
   }
 
-  .al-front-grid {
+  .al-front-grid,
+  .al-root-links {
     grid-template-columns: 1fr;
   }
-}
-/* Root language landing */
 
-.al-root-landing {
-  min-height: 72vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.al-root-center {
-  width: 100%;
-  max-width: 900px;
-  text-align: center;
-}
-
-.al-root-center h1 {
-  font-size: 4.8rem;
-  line-height: 1.02;
-  margin-bottom: 1.4rem;
-}
-
-.al-root-center p {
-  font-size: 1.3rem;
-}
-
-.al-root-links {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(320px, 1fr));
-  gap: 2rem;
-  margin-top: 4rem;
-}
-
-.al-lang-entry {
-  display: block;
-  padding: 2.5rem 2rem;
-  border: 1px solid var(--al-line);
-  background: var(--al-card);
-  text-decoration: none;
-  transition:
-    transform 0.15s ease,
-    box-shadow 0.15s ease;
-}
-
-.al-lang-entry:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 10px 28px rgba(30, 27, 24, 0.08);
-}
-
-.al-lang-title {
-  display: block;
-  font-size: 2rem;
-  color: var(--al-text);
-  margin-bottom: 1rem;
-  font-family: Georgia, serif;
-}
-
-.al-lang-desc {
-  display: block;
-  color: var(--al-muted);
-  line-height: 1.7;
-  font-size: 1.05rem;
-}
-
-.al-root-footer {
-  margin-top: 4rem;
-  color: var(--al-muted);
-  font-style: italic;
-}
-
-@media (max-width: 900px) {
   .al-root-center h1 {
     font-size: 3rem;
   }
 
-  .al-root-links {
-    grid-template-columns: 1fr;
-  }
-}
-.home-page article {
-  position: relative;
-}
-
-.home-page article::before,
-.home-page article::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  opacity: 0.38;
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-}
-
-.home-page article::before {
-  background-image: url("/images/left-watermark.png");
-  width: 340px;
-  height: 340px;
-  left: 28%;
-  top: 160px;
-}
-
-.home-page article::after {
-  background-image: url("/images/right-watermark.png");
-  width: 360px;
-  height: 360px;
-  right: 6%;
-  top: 190px;
-}
-
-@media (max-width: 900px) {
   .home-page article::before,
   .home-page article::after {
-    opacity: 0.18;
+    opacity: 0.14;
     width: 220px;
     height: 220px;
   }
@@ -430,136 +588,4 @@ article:has(:lang(he)) {
     right: 5%;
     top: 420px;
   }
-}
-.al-card-illustration {
-  width: 180px;
-  max-width: 70%;
-  opacity: 0.75;
-  margin: 0 auto 1.5rem auto;
-  display: block;
-}
-/* Hebrew pages */
-
-.he {
-  direction: rtl;
-  text-align: right;
-}
-
-/* Paragraphs, lists, blockquotes */
-
-.he p,
-.he li,
-.he ul,
-.he ol,
-.he blockquote {
-  direction: rtl;
-  text-align: right;
-}
-
-/* Headers */
-
-.he h1,
-.he h2,
-.he h3,
-.he h4,
-.he h5,
-.he h6 {
-  direction: rtl;
-  text-align: right;
-}
-
-/* Keep math and code left-to-right */
-
-.he .katex,
-.he mjx-container,
-.he code,
-.he pre {
-  direction: ltr;
-  unicode-bidi: isolate;
-}
-
-/* Inline Latin/math fragments */
-
-.he span[dir="ltr"],
-.he bdi[dir="ltr"] {
-  direction: ltr;
-  unicode-bidi: isolate;
-}
-:root[saved-theme="light"] {
-  --dark: #2b2525;
-  --darkgray: #4a4141;
-  --gray: #6f6666;
-  --light: #fbfaf7;
-  --lightgray: #e8e2dc;
-}
-
-:root[saved-theme="light"] article,
-:root[saved-theme="light"] article p,
-:root[saved-theme="light"] article li {
-  color: var(--darkgray) !important;
-}
-
-:root[saved-theme="light"] article h1,
-:root[saved-theme="light"] article h2,
-:root[saved-theme="light"] article h3 {
-  color: var(--dark) !important;
-}
-:root[saved-theme="dark"] {
-  --light: #1f1b1b;
-  --lightgray: #2b2525;
-  --gray: #b8adad;
-  --darkgray: #d8d0d0;
-  --dark: #f3eeee;
-  --secondary: #d6a36a;
-  --tertiary: #9fc3d6;
-  --highlight: rgba(214, 163, 106, 0.18);
-}
-
-:root[saved-theme="dark"] article,
-:root[saved-theme="dark"] article p,
-:root[saved-theme="dark"] article li {
-  color: var(--darkgray) !important;
-}
-
-:root[saved-theme="dark"] article h1,
-:root[saved-theme="dark"] article h2,
-:root[saved-theme="dark"] article h3 {
-  color: var(--dark) !important;
-}
-
-:root[saved-theme="dark"] a {
-  color: var(--secondary);
-}@media (prefers-color-scheme: dark) {
-  :root {
-    --light: #1f1b1b;
-    --lightgray: #2b2525;
-    --gray: #b8adad;
-    --darkgray: #d8d0d0;
-    --dark: #f3eeee;
-    --secondary: #d6a36a;
-    --tertiary: #9fc3d6;
-    --highlight: rgba(214, 163, 106, 0.18);
-  }
-}html,
-body,
-.page,
-.center,
-article,
-article *,
-.content,
-.content *,
-.popover,
-.popover * {
-  color: #222 !important;
-}
-
-html,
-body,
-.page {
-  background: #fbfaf7 !important;
-}
-
-a,
-a * {
-  color: #7a3f2a !important;
 }
