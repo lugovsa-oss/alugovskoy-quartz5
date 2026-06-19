@@ -504,3 +504,29 @@ article:has(:lang(he)) {
 :root[saved-theme="light"] article h3 {
   color: var(--dark) !important;
 }
+:root[saved-theme="dark"] {
+  --light: #1f1b1b;
+  --lightgray: #2b2525;
+  --gray: #b8adad;
+  --darkgray: #d8d0d0;
+  --dark: #f3eeee;
+  --secondary: #d6a36a;
+  --tertiary: #9fc3d6;
+  --highlight: rgba(214, 163, 106, 0.18);
+}
+
+:root[saved-theme="dark"] article,
+:root[saved-theme="dark"] article p,
+:root[saved-theme="dark"] article li {
+  color: var(--darkgray) !important;
+}
+
+:root[saved-theme="dark"] article h1,
+:root[saved-theme="dark"] article h2,
+:root[saved-theme="dark"] article h3 {
+  color: var(--dark) !important;
+}
+
+:root[saved-theme="dark"] a {
+  color: var(--secondary);
+}
