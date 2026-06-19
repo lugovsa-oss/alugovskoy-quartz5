@@ -540,4 +540,26 @@ article:has(:lang(he)) {
     --tertiary: #9fc3d6;
     --highlight: rgba(214, 163, 106, 0.18);
   }
+}html,
+body,
+.page,
+.center,
+article,
+article *,
+.content,
+.content *,
+.popover,
+.popover * {
+  color: #222 !important;
+}
+
+html,
+body,
+.page {
+  background: #fbfaf7 !important;
+}
+
+a,
+a * {
+  color: #7a3f2a !important;
 }
