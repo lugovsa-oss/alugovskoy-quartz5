@@ -529,4 +529,15 @@ article:has(:lang(he)) {
 
 :root[saved-theme="dark"] a {
   color: var(--secondary);
+}@media (prefers-color-scheme: dark) {
+  :root {
+    --light: #1f1b1b;
+    --lightgray: #2b2525;
+    --gray: #b8adad;
+    --darkgray: #d8d0d0;
+    --dark: #f3eeee;
+    --secondary: #d6a36a;
+    --tertiary: #9fc3d6;
+    --highlight: rgba(214, 163, 106, 0.18);
+  }
 }
