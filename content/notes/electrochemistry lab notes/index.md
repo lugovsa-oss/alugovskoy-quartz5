@@ -24,6 +24,10 @@ This section collects working notes as they arise — unedited and in no particu
 ### Publication Process
 [[A brief instruction on how to spoil the publication of your work|How to Ruin the Publication of Your Own Work]]
 
+## Electrodes
+[[Ag-AgCl-REs]]
+[[Reference-electrodes]]
+
 ### Case Stories
 [[A Story of One False Discovery]]
 [[Budget Justification]]
