@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: פרק 9 — משוואת Butler–Volmer ותיאוריית טאפל
 cssclasses:
   - he

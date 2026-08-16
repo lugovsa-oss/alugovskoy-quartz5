@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: פרק 10 — מדידות קורוזיה. Tafel Analysis, LPR ודיאגרמות Evans
 cssclasses:
   - he

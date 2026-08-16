@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 
 ### 1. Go to the target folder
 cd /path/to/your/images

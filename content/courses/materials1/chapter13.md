@@ -1,4 +1,5 @@
 ---
+created: 2026-06-05
 title: תכונות תרמיות של חומרים
 cssclasses:
   - he

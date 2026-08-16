@@ -1,3 +1,7 @@
+---
+created: 2026-07-07
+---
+
 # Reference Electrodes at Rest
 *Why Overnight Storage Conditions Determine the Quality of Your Ag/AgCl Electrode*
 

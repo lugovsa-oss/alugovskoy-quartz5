@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: Welcome to the personal site of Alex Lugovskoy
 cssclasses:
   - home-page

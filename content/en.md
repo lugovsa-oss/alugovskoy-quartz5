@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 <section class="al-hero">
 
 # Welcome

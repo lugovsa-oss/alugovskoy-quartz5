@@ -1,4 +1,5 @@
 ---
+created: 2026-06-12
 title: יסודות פיזיקה למהנדס כימיה
 cssclasses:
   - he

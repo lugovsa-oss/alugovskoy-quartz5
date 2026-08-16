@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 
 ![[gasEvolution-700x1224.webp]]
 Two postgraduate students, each working independently on their own research project, had to compare the corrosion rates of magnesium alloys in salt water measured by several techniques. Both obtained puzzling results, which can be summarized as follows:

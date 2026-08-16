@@ -1,4 +1,5 @@
 ---
+created: 2026-06-05
 title: פגמים במבנה הגבישי
 cssclasses:
   - he

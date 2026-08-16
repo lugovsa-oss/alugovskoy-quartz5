@@ -1,4 +1,5 @@
 ---
+created: 2026-06-07
 title: מעשה באלקטרודות
 cssclasses:
   - he

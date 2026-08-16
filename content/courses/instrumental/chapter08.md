@@ -1,4 +1,5 @@
 ---
+created: 2026-06-10
 title: פרק 8. ספקטרוסקופיית FTIR ו-Raman
 cssclasses:
   - he

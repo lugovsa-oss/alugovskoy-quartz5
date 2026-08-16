@@ -1,4 +1,5 @@
 ---
+created: 2026-06-10
 title: פרק 4. מיקרוסקופיה
 cssclasses:
   - he

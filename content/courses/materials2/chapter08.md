@@ -1,4 +1,5 @@
 ---
+created: 2026-06-08
 title: פרק 8. סגסוגות ברזל
 cssclasses:
   - he

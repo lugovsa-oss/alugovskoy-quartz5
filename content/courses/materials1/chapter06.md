@@ -1,4 +1,5 @@
 ---
+created: 2026-06-05
 title: פאזות, תמיסות ותערובות
 cssclasses:
   - he

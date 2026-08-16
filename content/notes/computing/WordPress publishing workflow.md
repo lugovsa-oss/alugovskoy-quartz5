@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 ## Source
 Obsidian Markdown (Hebrew STEM)
 

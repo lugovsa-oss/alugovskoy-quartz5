@@ -1,4 +1,5 @@
 ---
+created: 2026-06-09
 title: פרק 10. ספקטרומטריית מסות
 cssclasses:
   - he

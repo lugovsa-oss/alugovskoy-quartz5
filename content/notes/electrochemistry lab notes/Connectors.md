@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: Connecting the Sample to the Potentiostat Cable
 ---
 

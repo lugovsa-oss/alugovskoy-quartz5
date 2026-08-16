@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 # Realtek 8821CU Wi-Fi Recovery (Debian 12)
 
 ## Problem

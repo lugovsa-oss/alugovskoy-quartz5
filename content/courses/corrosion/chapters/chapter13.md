@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: פרק 13 — הגנה מפני קורוזיה
 cssclasses:
   - he

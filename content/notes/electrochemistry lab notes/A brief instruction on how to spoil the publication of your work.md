@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 One of the main products of academic research is a scientific publication. In an Israeli university, you get all kinds of bonuses, promotions, and other pleasant things according to the quality and quantity of your publications.
 There are publications that “count” and there are those that do not. A list of journals whose publications do count is managed and updated by the Higher Education Council of Israel, and you have no control over it.
 Some journals on that list have recently started offering authors the option to publish a preprint of their paper even before it has been officially accepted. When you submit to such a journal, they will offer to publish your preprint and explain how great that would be. This is exactly where the trap snaps shut.

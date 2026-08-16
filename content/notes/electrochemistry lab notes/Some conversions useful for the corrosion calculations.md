@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 When calculating corrosion rates of Mg alloys, we often need to perform a set of standard unit conversions. The final formulas appear in virtually every paper in the field, but the derivations are rarely shown. I find it useful to present them explicitly.
 
 ## 1. Conversion of corrosion current to corrosion rate

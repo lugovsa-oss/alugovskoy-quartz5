@@ -1,3 +1,7 @@
+---
+created: 2026-05-13
+---
+
 project:
   type: book
   output-dir: output

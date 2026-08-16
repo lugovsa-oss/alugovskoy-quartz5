@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: פרק 3 — פגמים, תחמוצות לא-סטוכיומטריות וכללי Wagner–Hauffe
 cssclasses:
   - he

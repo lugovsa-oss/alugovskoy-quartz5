@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 (Working notes)
 Virtually any Mg alloy containing aluminium consists of two main phases (the influence of minor additives, which can be significant, is ignored here):
 	•	α-phase: essentially pure magnesium (though it may contain up to ~17 at.% Al in solid solution)

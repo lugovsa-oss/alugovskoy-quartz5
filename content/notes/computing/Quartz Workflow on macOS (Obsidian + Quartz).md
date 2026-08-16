@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 ## Overview
 
 This setup creates a workflow where:

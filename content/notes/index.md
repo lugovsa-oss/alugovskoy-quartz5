@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: Garden of Notes
 description: Research notes and interconnected knowledge spaces.
 ---

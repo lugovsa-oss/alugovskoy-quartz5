@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: A Procedure for the preparation of an electrolyte saturated by magnesium hydroxide
 ---
 

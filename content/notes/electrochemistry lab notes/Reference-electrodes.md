@@ -1,3 +1,7 @@
+---
+created: 2026-07-07
+---
+
 # Reference Electrodes: Types, Design, and Practical Limitations
 
 ## 1. General Requirements for a Reference Electrode

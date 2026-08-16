@@ -1,4 +1,5 @@
 ---
+created: 2026-06-09
 cssclasses:
   - he
 title: פרק 12. אנליזה תרמית

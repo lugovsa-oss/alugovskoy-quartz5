@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 
 The Tafel plot shown below is the most ideal polarization curve that can be constructed. It was built using data points computed by the Butler-Volmer equation with the following parameters: T = 298 K, n꜀ = nₐ = 2, α = 0.5, i₀ = 10⁻¹¹ A. Any real polarization curve is “worse” from the point of view of Tafel analysis.
 ![[Image 14-05-2026 at 19.36.webp]]

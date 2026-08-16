@@ -1,4 +1,5 @@
 ---
+created: 2026-06-01
 title: Open Circuit Potential. Waiting for Stability
 ---
 

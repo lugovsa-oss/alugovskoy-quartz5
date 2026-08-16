@@ -1,1 +1,5 @@
+---
+created: 2026-06-01
+---
+
 Alex Lugovskoy is a materials scientist and educator at Ariel University. This site contains research notes, publications, teaching materials, and occasional essays on topics that may or may not fall within his professional domain.

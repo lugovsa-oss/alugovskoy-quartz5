@@ -1,4 +1,5 @@
 ---
+created: 2026-06-04
 cssclasses:  he
 title: מהו חומר?
 ---

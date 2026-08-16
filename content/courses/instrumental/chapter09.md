@@ -1,4 +1,5 @@
 ---
+created: 2026-06-09
 title: פרק 9. תהודה מגנטית גרעינית (NMR)
 cssclasses:
   - he

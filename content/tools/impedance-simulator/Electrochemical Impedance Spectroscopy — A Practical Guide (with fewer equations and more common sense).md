@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 
 ## A short, practical introduction to EIS for students and engineers who would like to understand Nyquist plots without suffering unnecessarily.
 

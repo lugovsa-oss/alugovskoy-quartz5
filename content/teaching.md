@@ -1,3 +1,7 @@
+---
+created: 2026-06-01
+---
+
 My teaching spans the core curriculum of materials science and electrochemistry at the undergraduate level, covering physical metallurgy, materials structure, corrosion and protection, surface coatings, and nanotechnology. Laboratory instruction has been a consistent part of this work — from general chemistry to advanced characterization techniques including SEM and EDS. I have been recognized as Lecturer of the Year by the university rector’s committee on six occasions (2010, 2013, 2014, 2017, 2018, 2019), with consistent above-average student evaluations throughout my time at Ariel University.
 
 ## Research supervision

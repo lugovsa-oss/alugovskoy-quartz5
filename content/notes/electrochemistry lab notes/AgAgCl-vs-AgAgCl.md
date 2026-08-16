@@ -1,4 +1,5 @@
 ---
+created: 2026-07-20
 title: The potential of an electrochemical cell consisting of two Ag|AgCl electrodes
 ---
 In our routine work, it is sometimes necessary to test Ag/AgCl reference electrodes. This document presents the calculation of the theoretical potential difference for a cell consisting of a saturated KCl Ag/AgCl reference electrode and a 3 M KCl Ag/AgCl test electrode. Both electrodes were immersed in a 3M KCl electrolyte.
